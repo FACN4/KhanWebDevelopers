@@ -33,3 +33,5 @@ Phases of project (roughly in order):
 9. Navigation
 10. Check that ChromeVox is working the site well
 11. Check that the site works without javascript
+
+![Image of header & Nav](images/navlayout.png)
