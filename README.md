@@ -34,4 +34,4 @@ Phases of project (roughly in order):
 10. Check that ChromeVox is working the site well
 11. Check that the site works without javascript
 
-![Image of header & Nav](images/navlayout.png)
+![Image of header & Nav](https://github.com/FACN4/KhanWebDevelopers/blob/master/images/navLayout.png)

@@ -1,8 +1,24 @@
 a{
   color:red;
 }
+
 span{
   width: 50px;
   height: 50px;
   color: green;
 }
+
+.teamFigures {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.singleFigure {
+
+}
+@media only screen and (min-width:600px){
+  .teamFigures{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
