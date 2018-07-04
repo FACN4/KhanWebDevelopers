@@ -1,31 +1,45 @@
-body > section{
-  padding-top: 110px;
-}
 
+body  section{
+  padding-top: 100px;
+}
 header{
-  background-color: green;
+  background-color:#c0c0c0;
   top: 0;
   width: 100%;
   position: fixed;
+  padding: 0px;
+  margin:0px;
+  height: auto;
 }
 header > h1{
   text-align: center;
+  padding: 0px;
+  margin:0px;
 }
 .nav{
+  position: fixed;
+  bottom:0;
+  top: initial;
   width: 100%;
   background-color: #595959;
   color: #ffffff;
-  list-style: none;;
-  text-align: center;;
-  padding: 20px 0 20px 0;
+  list-style: none;
+  text-align: center;
+  padding: 0px ;
+  bottom :0;
+  height: 20px;
+  margin: 0px;
 }
+
 .nav > li{
   display: inline-block;
   padding-right: 150px;
+  padding-top: 0.2%;
 }
 .nav > li > a{
   text-decoration: none;
   color: #ffffff;
+
 }
 .nav > li > a:hover{
   color: #c1c1c1;
@@ -48,7 +62,7 @@ figure > img{
     border: 5px solid grey ;
   }
 
-  /* Style for form*/
+/* Style for form*/
 #contactUs{
   text-align: left;
   margin: 0% 2.5% 0% 2.5%;
@@ -85,6 +99,12 @@ button {
 #name, #email {
   width: 50%;
 }
-@media screen and (min-width:480px){
-  .teamFigures{grid-template-columns: 1fr 1fr 1fr;}
+/* Style for Desktop*/
+@media only screen and (min-width:480px){
+.teamFigures{grid-template-columns: 1fr 1fr 1fr;}
+.nav{
+  position: fixed;
+  bottom: initial;
+  }
 }
+
