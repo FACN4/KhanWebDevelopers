@@ -10,16 +10,20 @@
 <body>
   <header>
     <h1>Khan Web Developers</h1>
-
+    <ul class="nav">
+      <li><a href="#home">Home Page</a></li>
+      <li><a href="#aboutus">About Us</a></li>
+      <li><a href="#team">Our Team</a></li>
+      <li><a href="#contactUs">Contact Us</a></li>
+    </ul>
   </header>
 
-  <nav class="navbar">
-    <a href="/Home/"><span>Home</span></a>
-    <a href="/Contact/">Contact</a>
-    <a href="/Team/">Team</a>
-    <a href="other">other</a>
-  </nav>
-
+  <section id="home" >
+  <h2>Home page</h2>
+  <img src="" alt="">
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</section>
+  
   <section id="aboutUs">
     <h2>About Us</h2>
     <div class="">
@@ -29,9 +33,7 @@
     </div>
   </section>
 
-
-
-  <section id="Team">
+  <section id="team">
     <h2>Our Developers Team</h2>
     <div class="teamFigures">
       <figure class="singleFigure">
@@ -60,8 +62,9 @@
 
   <section id="contactUs">
     <h2>Contact Us</h2>
-    <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbz1SuyyMjXqXEOd_KFaxKgRIrs00QsYF5xQhW7V7w/exec">
-      <!-- When form is submitted, prevent default,  -->
+    <iframe name="votar" style="display:none;"></iframe>
+    <form id="gform" method="POST" target="_top" class="pure-form pure-form-stacked" data-email="example@email.net" action="https://script.google.com/macros/s/AKfycbz1SuyyMjXqXEOd_KFaxKgRIrs00QsYF5xQhW7V7w/exec">
+      <!--  -->
 
       <fieldset class="pure-group">
         <label for="name">Name: </label>

@@ -1,5 +1,4 @@
-let form = document.getElementById("gform");
-form.addEventListener("submit",function(e){
-  e.preventDefault();
-  console.log(form.submit());
-})
+let form = getElementById("gform");
+form.addEventListener("submit", function() {
+      console.log("Message submitted");
+    });
