@@ -5,23 +5,21 @@
   <title>KhanWebDevelopers</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 </head>
 
 <body>
   <header>
     <h1>Khan Web Developers</h1>
-    <ul class="nav">
-      <li><a href="#aboutus">Home</a></li>
-      <li><a href="#aboutus">About Us</a></li>
-      <li><a href="#team">Our Team</a></li>
-      <li><a href="#contactUs">Contact Us</a></li>
-    </ul>
+    <nav class="nav">
+      <a href="#aboutus">About Us</a>
+      <a href="#team">Our Team</a>
+      <a href="#contactUs">Contact Us</a>
+    </nav>
   </header>
 
-  <section id="aboutUs">
+  <section id="aboutus">
+    <h2>About Us</h2>
     <div class="partialGreyBackround aboutUsBox">
-      <h2>About Us</h2>
       <p class="aboutus">
         Hi! We are the Khan Web Developers- a savy and resourceful group of technophiles who have tha skills and experience to build your dream web app. Interested?... I thought so, please check us out.
       </p>
@@ -30,15 +28,18 @@
 
   <section id="team">
     <h2>Our Team of Developers</h2>
-    <div class="teamFigures">
+    <div class="teamContainer">
       <figure class="singleFigure partialGreyBackround">
-        <img src="./images/bassam.jpg" alt="bassam">
+        <a class="gitLink" href="https://github.com/ekbassa"><img src="https://raw.githubusercontent.com/DenisKent/DenisKent.github.io/master/images/GitHub-Mark-120px-plus.png" alt="gitHub accout link"></a>
+        <img src="./images/bassam.jpg" alt="Bassam">
+
         <figcaption>
           Bassam is an extremely experienced team member. Master of everything automation related, he rarely has any work left to do. Bassam is cool, calm and collected.
         </figcaption>
       </figure>
 
       <figure class="singleFigure partialGreyBackround">
+        <a class="gitLink" href="https://github.com/DenisKent"><img src="https://raw.githubusercontent.com/DenisKent/DenisKent.github.io/master/images/GitHub-Mark-120px-plus.png" alt="gitHub accout link"></a>
         <img src="./images/Denis.jpg" alt="Denis">
         <figcaption>
           Denis is the newest member of the team. Some call him the Mechanical Turk. One thing is for sure, he does a mean robot. Denis is certainly not calm, cool or collected.
@@ -46,7 +47,8 @@
       </figure>
 
       <figure class="singleFigure partialGreyBackround">
-        <img src="./images/yoosef.jpg" alt="yoosef">
+        <a class="gitLink" href="https://github.com/yoosefkh"><img src="https://raw.githubusercontent.com/DenisKent/DenisKent.github.io/master/images/GitHub-Mark-120px-plus.png" alt="gitHub accout link"></a>
+        <img src="./images/yoosef.jpg" alt="Yoosef">
         <figcaption>
           Yoosef is one of a kind. Nobody can match is peacefull nature. He brings a chilled approach to every project. We are lucky to have him on team.
         </figcaption>
@@ -56,39 +58,36 @@
 
   <section id="contactUs">
     <h2>Contact Us</h2>
-    <p>
-      Please contact us with any queries using the form below.
-    </p>
-    <form id="gform" method="POST" target="_top" class="pure-form pure-form-stacked" action="https://script.google.com/macros/s/AKfycbz1SuyyMjXqXEOd_KFaxKgRIrs00QsYF5xQhW7V7w/exec">
 
-      <fieldset class="pure-group">
+    <form id="gform" method="POST" target="_top" class="partialGreyBackround" action="https://script.google.com/macros/s/AKfycbw4QHT_hkLq6KPTWIrUdFdyM7noVdYwUtlMUfqu1SEwK_F8Ofnr/exec">
+      <p style="padding-bottom: 15px;">
+        Please contact us with any queries using the form below
+      </p>
+      <fieldset>
         <label for="name">Name: </label>
-        <input id="name" name="name" placeholder="Enter Name" />
+        <input id="name" name="name" placeholder="Enter Name"/>
       </fieldset>
 
-      <fieldset class="pure-group">
+      <fieldset>
         <label for="message">Message: </label>
         <textarea id="message" name="message" rows="10" placeholder="Enter message"></textarea>
       </fieldset>
 
-      <fieldset class="pure-group">
-        <label for="email"><em>Your</em> Email Address:</label>
-        <input id="email" name="email" type="email" value="" required placeholder="your.name@email.com" />
-        <span id="email-invalid" style="display:none">
-          Must be a valid email address</span>
+      <fieldset>
+        <label for="email">Your Email Address:</label>
+        <input id="email" name="email" type="email" placeholder="your.name@email.com" required/>
       </fieldset>
 
-      <fieldset class="pure-group">
+      <fieldset>
         <label for="phoneNumber">Phone number: </label>
         <input id="phoneNumber" name="phoneNumber" placeholder="enter phone number" />
       </fieldset>
 
-      <button class="button-success pure-button button-xlarge">
-        <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+      <button class="button-submit">
+        <img src="https://storybookstorage.s3.amazonaws.com/items/images/000/035/662/original/running_camel_270.png" alt="Send image"><span>Send</span>
+      </button>
     </form>
 
   </section>
-  <script data-cfasync="false" type="text/javascript" src="script.js"></script>
-
 </body>
 </html>
