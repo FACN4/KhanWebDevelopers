@@ -34,18 +34,43 @@ header > h1{
 .teamFigures {
   display: grid;
   grid-template-columns: 1fr;
+  width:100%;
+  background-image: url(https://previews.123rf.com/images/korolyok/korolyok1803/korolyok180300118/98554499-old-grunge-newspaper-paper-texture-background-blurred-vintage-newspaper-background-aged-blur-paper-t.jpg);
 }
 
 .singleFigure {
+  width: 33%
+  background-image: url(http://wallpoper.com/images/00/31/33/51/black-background_00313351.jpg);
 
 }
-@media only screen and (min-width:480px){
-  .teamFigures{
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+
+#aboutUs {
+  text-align: center;
 }
+
+.abubg {
+  background-image: url(http://wallpoper.com/images/00/31/33/51/black-background_00313351.jpg);
+  height: 200px;
+    width: 100%;
+}
+
+  .singleFigure > img{
+    max-width: 100%;
+    max-height: 222px;
+    radios:50px;
+    border: 5px solid grey ;
+  }
+
+
 iframe {
     overflow: scroll;
     width: 1349px;
     border: 1px solid black;
+  }
+
+  @media only screen and (min-width:480px){
+  .teamFigures{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
+
