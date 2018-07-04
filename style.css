@@ -1,4 +1,5 @@
 
+/*Whole document formating*/
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 body section{
   padding-top: 100px;
@@ -7,47 +8,56 @@ body section{
   margin: 30px;
 }
 body{
-  background-image: url(https://orig00.deviantart.net/6f50/f/2011/325/d/b/techno_wallpaper_hd_by_gredius-d4guyxr.jpg);
+  background-image:
+  url(http://www.reevolveclothing.com/wp-content/uploads/2018/05/simple-picture-of-camels-in-the-desert-10277d-camel-wallpaper-landscape-pinterest-deserts.jpg);
+  /* url(https://orig00.deviantart.net/6f50/f/2011/325/d/b/techno_wallpaper_hd_by_gredius-d4guyxr.jpg); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Rubik', sans-serif;
+  font-size: 18px;
 }
-
+h2{
+  font-size: 35px;
+}
+/*Nav bar and header*/
 header{
-  background-color:#c0c0c0;
   top: 0;
   width: 100%;
   position: fixed;
   padding: 0px;
   margin:0px;
   height: auto;
-
 }
 header > h1{
   text-align: center;
   padding: 0px;
   margin:0px;
+  background-color:#FFE4B5;
+  font-size: 35px;
 }
 .nav{
+  background-color:#CD853F;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   position: fixed;
   bottom:0;
   top: initial;
   width: 100%;
-  background-color: #595959;
   color: #ffffff;
   list-style: none;
   text-align: center;
   padding: 0px ;
   bottom :0;
-  height: 20px;
+  height: 40px;
   margin: 0px;
+  align-items:center;
 }
 
 .nav > li{
-  display: inline-block;
+  /* display: inline-block;
   padding-right: 150px;
-  padding-top: 0.2%;
+  padding-top: 0.2%; */
 }
 .nav > li > a{
   text-decoration: none;
@@ -55,17 +65,25 @@ header > h1{
 
 }
 .nav > li > a:hover{
-  color: #c1c1c1;
+  /* color: #c1c1c1; */
+  background-color: #c1c1c1;
+}
+/*About us*/
+.partialGreyBackround{
+  background-color: rgba(220,220,220,0.6);
+  padding: 10px 25px 25px 25px;
+  border: 2px solid #F5F5DC;
+}
+.aboutUsBox{
+  width: 60%;
+  margin: auto;
 }
 .aboutus {
   text-align: center;
-  width: 70%;
-margin: auto;
-line-height: 150%;
-font-size: 24px;
-color: lightgray;
-text-align: justify;
-    text-justify: inter-word
+  line-height: 150%;
+  color: #000;
+  text-align: justify;
+  text-justify: inter-word
 }
 .teamFigures {
   display: grid;
@@ -81,12 +99,13 @@ text-align: justify;
 .singleFigure > figcaption{
   text-align: justify;
   text-justify: inter-word;
+  font-size: 18px;
 }
 
  .singleFigure > img{
     max-width: 100%;
     max-height: 400px;
-    border: 5px solid grey ;
+    border: 1px solid #BDB76B ;
   }
 h2{
   text-align: center;
@@ -135,5 +154,8 @@ button {
 .nav{
   position: fixed;
   bottom: initial;
+  }
+  body{
+    font-size: 25px;
   }
 }
