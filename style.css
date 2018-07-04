@@ -1,42 +1,58 @@
+
 @import url('https://fonts.googleapis.com/css?family=Rubik');
-body  section{
-  padding-top: 110px;
+body section{
+  padding-top: 100px;
   text-align: center;
   text-justify: inter-word;
-margin: 30px;
+  margin: 30px;
 }
 body{
   background-image: url(https://orig00.deviantart.net/6f50/f/2011/325/d/b/techno_wallpaper_hd_by_gredius-d4guyxr.jpg);
   background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      font-family: 'Rubik', sans-serif;
-
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Rubik', sans-serif;
 }
-header{background-color: green;
 
+header{
+  background-color:#c0c0c0;
   top: 0;
   width: 100%;
-  position: fixed;Developers
+  position: fixed;
+  padding: 0px;
+  margin:0px;
+  height: auto;
+
 }
 header > h1{
   text-align: center;
+  padding: 0px;
+  margin:0px;
 }
 .nav{
+  position: fixed;
+  bottom:0;
+  top: initial;
   width: 100%;
   background-color: #595959;
   color: #ffffff;
-  list-style: none;;
-  text-align: center;;
-  padding: 20px 0 20px 0;
+  list-style: none;
+  text-align: center;
+  padding: 0px ;
+  bottom :0;
+  height: 20px;
+  margin: 0px;
 }
+
 .nav > li{
   display: inline-block;
   padding-right: 150px;
+  padding-top: 0.2%;
 }
 .nav > li > a{
   text-decoration: none;
   color: #ffffff;
+
 }
 .nav > li > a:hover{
   color: #c1c1c1;
@@ -57,19 +73,17 @@ text-align: justify;
   width:100%;
 }
 
-
-
 #aboutUs {
   text-align: center;
 }
 
+
 .singleFigure > figcaption{
   text-align: justify;
   text-justify: inter-word;
-
 }
 
-  .singleFigure > img{
+ .singleFigure > img{
     max-width: 100%;
     max-height: 400px;
     border: 5px solid grey ;
@@ -78,14 +92,48 @@ h2{
   text-align: center;
 }
 
-iframe {
-    overflow: scroll;
-    width: 1349px;
-    border: 1px solid black;
-  }
-
-  @media  screen and (min-width:480px){
-  .teamFigures{
-    grid-template-columns: 1fr 1fr 1fr;
+/* Style for form*/
+#contactUs{
+  text-align: left;
+  margin: 0% 2.5% 0% 2.5%;
+}
+textarea {
+  width: 100%;
+}
+.pure-group{
+  border: none;
+}
+.content-head {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2em 0 1em;
+}
+.is-center {
+  text-align: center;
+}
+.button-success {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(28, 184, 65); /* this is a green */
+  margin-bottom: 50px;
+  float: left;
+}
+.button-xlarge {
+  font-size: 125%;
+}
+button {
+  float: right;
+}
+#name, #email {
+  width: 50%;
+}
+/* Style for Desktop*/
+@media only screen and (min-width:480px){
+.teamFigures{grid-template-columns: 1fr 1fr 1fr;}
+.nav{
+  position: fixed;
+  bottom: initial;
   }
 }
