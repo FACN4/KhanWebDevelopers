@@ -1,5 +1,6 @@
 # KhanWebDevelopers
-Week1 project team: Bassan, Yoosef, Denis
+Week1 project team: Bassan, Yoosef, Denis  
+Click on the link for the WebSite [here](https://facn4.github.io/KhanWebDevelopers/)
 
 ## Why?
 Khan Web Developers is a very successful company. We have all of the best customers in several fields of business. We are building this website to attract new customers to join our existing customer base. Additionally, this website will be used by our current customers to learn more about us and get in contact with us.
