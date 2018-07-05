@@ -65,7 +65,7 @@
       </p>
       <fieldset>
         <label for="name">Name: </label>
-        <input id="name" name="name" placeholder="Enter Name" required/>
+        <input id="name" name="name" placeholder="Enter Name" pattern="[a-zA-Z\s]{3,}" required/>
       </fieldset>
 
       <fieldset>
@@ -80,7 +80,7 @@
 
       <fieldset>
         <label for="phoneNumber">Phone number: </label>
-        <input id="phoneNumber" name="phoneNumber" placeholder="enter phone number" required/>
+        <input id="phoneNumber" type="tel" name="phoneNumber" placeholder="enter phone number" pattern="[0-9\s-+]{3,20}" required/>
       </fieldset>
 
       <button class="button-submit">
