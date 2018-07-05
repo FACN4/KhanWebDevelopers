@@ -17,8 +17,7 @@ body{
 }
 
 body section{
-  padding-top: 50px;
-  padding-bottom: 70px;
+  padding-top: 50px 0px 70px;
 }
 section{
   /* background-image:
